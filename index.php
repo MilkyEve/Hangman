@@ -1,1 +1,1 @@
-blehh :php_sapi_name
+blehh :pp
