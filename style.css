@@ -1,0 +1,20 @@
+body {
+    background-image: url("background.png");
+}
+
+h1 {
+    text-align: center;    
+}
+
+.homepage-button {
+    border: solid red 5px;
+    padding: 50px;
+}
+
+#outerdiv {
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
