@@ -1,5 +1,10 @@
 body {
+    font: italic small-caps bold 16px/2 cursive;
     background-image: url("background.png");
+}
+
+a {
+    text-decoration: none;
 }
 
 h1 {
@@ -9,7 +14,42 @@ h1 {
 .homepage-button {
     background-color: #f4b8da;
     border: solid #e68bbe 5px;
+    border-radius: 5px 5px 5px 5px;
     padding: 50px;
+}
+
+.text-input {
+    background-color: #f4b8da;
+    border: solid #e68bbe 5px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 30px 20px;
+}
+
+.start-btn {
+    background-color: #f4b8da;
+    border: solid #e68bbe 5px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px;
+}
+
+.reset-btn {
+    background-color: #f4b8da;
+    border: solid #e68bbe 3px;
+    border-radius: 4px 4px 4px 4px;
+    /* padding: 4px 4px 4px 4px; */
+}
+
+.letter-open {
+    background-color: #f4b8da;
+    border: solid #e68bbe 1px;
+    border-radius: 4px 4px 4px 4px;
+    margin: 1px;
+}
+
+.letter-closed {
+    background-color: #e68bbe;
+    border: solid #f4b8da 1px;
+    border-radius: 4px 4px 4px 4px;
 }
 
 #outerdiv {
@@ -18,4 +58,55 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+form {
+    text-align: center;
+}
+
+#muisKaas {
+    width: 100px;
+}
+
+#index {
+    font-size: 20px;
+}
+
+#dood {
+    position: relative;
+    margin-left: 43%;
+    margin-right: 40%;
+    width: 300px;
+}
+
+#streep {
+    font-size: 50px;
+    display: inline;
+}
+
+.end-text {
+    display: flex;
+    position: absolute;
+    margin-left: 38%;
+    margin-right: 38%;
+    top: 0;
+}
+
+.endimg {
+    /* display: relative;  */
+    position: relative;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    top: 1.5rem;
+    width: 5rem;
+    height: 5rem;
+    
+}
+
+.main {
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
 }

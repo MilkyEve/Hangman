@@ -10,9 +10,14 @@
 <body>
     <h1>Hangman</h1>
     <div id="outerdiv">
-        <div><a href="#"><span class="homepage-button">Start with a random word</span></a></div>
+        <div><a href="galgjeRandom.php"><span class="homepage-button">Start with a random word</span></a></div>
         <div><img src="hangman.png" alt=""></div>
-        <div><a href="#"><span class="homepage-button">Start with a custom word</span></a></div>
+        <div><a href="galgjeUser.php"><span class="homepage-button">Start with a custom word</span></a></div>
     </div>
+
+    <?php
+    
+    ?>
+
 </body>
 </html>

@@ -1,0 +1,21 @@
+#muisKaas {
+    width: 100px;
+}
+
+body {
+    background-image: url("background.png");
+    background-color: #f1b1c9;
+}
+
+#index {
+    font-size: 20px;
+}
+
+#dood {
+    width: 300px;
+}
+
+#streep {
+    font-size: 50px;
+    display: inline;
+}
