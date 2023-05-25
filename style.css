@@ -79,6 +79,11 @@ form {
     width: 300px;
 }
 
+#correctword {
+    /* text-align: center; */
+    left: 50%;
+}
+
 #streep {
     font-size: 50px;
     display: inline;
