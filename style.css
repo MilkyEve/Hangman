@@ -1,6 +1,17 @@
+* {
+    text-align: center;
+}
+
+h1, p, span {
+    text-shadow: 4px,4px,0px white;
+    
+}
+
 body {
     font: italic small-caps bold 16px/2 cursive;
     background-image: url("background.png");
+    max-width: 99%;
+    top: -10px
 }
 
 a {
@@ -47,8 +58,8 @@ h1 {
 }
 
 .letter-closed {
-    background-color: #e68bbe;
-    border: solid #f4b8da 1px;
+    background-color: #ea61ae;
+    border: solid #e68bbe 1px;
     border-radius: 4px 4px 4px 4px;
 }
 
@@ -73,15 +84,17 @@ form {
 }
 
 #dood {
-    position: relative;
-    margin-left: 43%;
-    margin-right: 40%;
-    width: 300px;
+    /* position: relative; */
+    /* margin-left: 43%;
+    margin-right: 40%; */
+    width: 175px;
 }
 
 #correctword {
     /* text-align: center; */
-    left: 50%;
+    /* left: 50%; */
+    
+    margin-bottom: -75px;
 }
 
 #streep {
@@ -90,28 +103,29 @@ form {
 }
 
 .end-text {
-    display: flex;
-    position: absolute;
-    margin-left: 38%;
-    margin-right: 38%;
-    top: 0;
+    /* display: flex; */
+    position: relative;
+    /* margin-left: 38%; */
+    /* margin-right: 38%; */
+    top: -50px;
 }
 
 .endimg {
-    /* display: relative;  */
+    display: relative; 
     position: relative;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
+    /* right: 0; */
+    /* margin-left: auto;
+    margin-right: auto; */
     top: 1.5rem;
-    width: 5rem;
+    /* width: 5rem; */
     height: 5rem;
     
 }
 
 .main {
-    display: flex;
+    /* display: flex; */
     /* justify-content: space-around; */
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
+    /* flex-direction: column; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
 }

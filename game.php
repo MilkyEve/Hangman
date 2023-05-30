@@ -72,10 +72,9 @@
 			}
 			
 			if($won){
-				echo '' . '<h1 class="end-text">You won!<img src="thumbchamp.png" alt="" class="endimg"></h1>';
-			}		
-			if($lose){
-				echo "<br>" . "<h1 class='end-text'>You lost<img src='cry.png' alt='' class='endimg'></h1>";
+				echo '<h1 class="end-text">You won!</h1><br><img src="win.png" alt="" class="endimg">';
+			}elseif($lose){
+				echo "<br>" . "<h1 class='end-text'>You lost <img src='loss.gif' alt='' class='endimg'></h1>";
 				echo "<p id='correctword'>The correct word was<br>" . $_COOKIE['woord']. "</p>";
 			}
 			?>
